@@ -40,3 +40,15 @@
   background-color: #111827 !important;
   height: 130px;
 }
+.quaytron>image {
+  animation: app-logo-spin infinite 5s linear
+}
+
+@keyframes app-logo-spin {
+  to {
+    transform: rotate(0deg)
+  }
+  from {
+    transform: rotate(360deg)
+  }
+}
